@@ -25,5 +25,18 @@ ul.listaBonita > li.selecinado {
     background-color: #bfbfbf;
     border-color: #0d4e8a;
 }
+.fb {
+    background-color: #0d4e8a;
+    display: flex;
+    width: 300px;
+    height: 120px;
+}
+.fb > div{
+    background-color: #c5b803;
+    border: 2px solid red;
+    margin: 6px;
+    padding: 0 4px;
+    text-align:center;
+}
 
 
