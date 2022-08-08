@@ -1,42 +1,30 @@
-hmtl {
-    font-size: 16px;
+.logo {
+    width: 150px;
+    margin: -4px 8px 0 8px;
+    background-image: url(https://i.stack.imgur.com/AXDKB.png);
+    background-position:  0 -500px;
+}
+#placeholder-content{
+    height: 800px;
+}
+#placeholder-footer{
+    height: 100px;
+}
+html{
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
 }
-ul.listaBonita > li{
-    list-style: none;
-    border: 2px solid #a0a0a0;
-    padding: 4px 8px;
+header{
+    background-color: rgb(250, 250, 251)
+    ;
+    border-top: 3px solid rgb(244, 128, 36);
 }
-ul.listaBonita {
-    color: #353535;
+nav a.current {
+    background-color: #eff0f1;
+    color:  rgb(12, 13, 14);
+    text-decoration: none;
+    border-right: 3px solid rgb(244, 128, 36);
 }
-ul.listaBonita > li.first-child{
-    border-top-left-radius: 3px;
-    border-top-right-radius: 3px;
+h1 {
+    font-size: 27px;
 }
-ul.listaBonita > li.last-child{
-    border-bottom-left-radius: 3px;
-    border-bottom-right-radius: 3px;
-}
-ul.listaBonita > li.houver {
-    background-color: #c5b803;
-}
-ul.listaBonita > li.selecinado {
-    background-color: #bfbfbf;
-    border-color: #0d4e8a;
-}
-.fb {
-    background-color: #0d4e8a;
-    display: flex;
-    width: 300px;
-    height: 120px;
-}
-.fb > div{
-    background-color: #c5b803;
-    border: 2px solid red;
-    margin: 6px;
-    padding: 0 4px;
-    text-align:center;
-}
-
-
