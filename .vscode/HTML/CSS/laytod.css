@@ -1,13 +1,20 @@
-span 
+.container
 {
-    display: inline-block;
+    display: block;
     color: white;
-    width: 200px;
-    height: 200px;
+    min-height: 200px;
+    margin: 10px;
+}
+.div-flex
+{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
 }
 #blue
 {
     background-color: blue;
+    justify-content: center;
 }
 #red
 {
@@ -16,4 +23,12 @@ span
 #green
 {
     background-color: green;
+}
+#yellow
+{
+    background-color: yellow;
+}
+#purple
+{
+    background-color: purple;
 }
