@@ -1,0 +1,39 @@
+.colunm-conteiner 
+{
+display: flex;
+flex-flow: row nowrap;
+}
+.main-colunm
+{
+width: (32% -20px);
+margin: 0px 10px 20px 10px;
+min-height: 100px;
+background-color: blueviolet;
+color: lightpink;
+padding: 10px;
+}
+.main-colunm p 
+{
+font-size: 25px;
+}
+@media (max-width: 720px) 
+{
+    .main-colunm p {font-size: 20px;}
+    .main-colunm 
+    {   
+        width: 100%;
+        background-color: rgb(17, 3, 83);
+        color: rgb(241, 235, 236);
+    }
+}
+@media (max-width: 480px)
+{
+    .main-colunm p {font-size: 18px;}
+    .colunm-conteiner {flex-flow: column wrap;}
+    .main-colunm 
+    {   
+        width: 100%;
+        background-color: rgb(17, 3, 83);
+        color: rgb(241, 235, 236);
+    }
+}
